@@ -2,15 +2,19 @@
 Objective of this training is to exercise the commonly used interfaces on a standard microcontroller such as STM32F Family.
 
 ## Parts
-https://estore.st.com/en/nucleo-g071rb-cpn.html
-Microphone input: https://www.adafruit.com/product/1063
-Speaker driver: https://www.adafruit.com/product/2130
-I2C Temp: https://www.adafruit.com/product/1782
+https://estore.st.com/en/nucleo-g071rb-cpn.html  
+
+Microphone input: https://www.adafruit.com/product/1063  
+
+Speaker driver: https://www.adafruit.com/product/2130  
+
+I2C Temp: https://www.adafruit.com/product/1782  
+
 FET Board:
-https://www.amazon.com/Onyehn-Mosfet-Button-Arduino-Raspberry/dp/B07GLNCRR4/ref=pd_sbs_3/138-9532009-5015836?pd_rd_w=KG1oY&pf_rd_p=dfec2022-428d-4b18-a6d4-8f791333a139&pf_rd_r=3WP3FZHXNH9TTEDXBPCQ&pd_rd_r=ebb85f0e-da1c-434d-90f7-e5a66eb27be7&pd_rd_wg=5Jt2b&pd_rd_i=B07GLNCRR4&psc=1
+https://www.amazon.com/Onyehn-Mosfet-Button-Arduino-Raspberry/dp/B07GLNCRR4/ref=pd_sbs_3/138-9532009-5015836?pd_rd_w=KG1oY&pf_rd_p=dfec2022-428d-4b18-a6d4-8f791333a139&pf_rd_r=3WP3FZHXNH9TTEDXBPCQ&pd_rd_r=ebb85f0e-da1c-434d-90f7-e5a66eb27be7&pd_rd_wg=5Jt2b&pd_rd_i=B07GLNCRR4&psc=1  
 
 Optional:
-https://www.totalphase.com/products/aardvark-i2cspi/
+https://www.totalphase.com/products/aardvark-i2cspi/  
 
 ## Setup IDE
 Compile, Build & Debug simple application.
