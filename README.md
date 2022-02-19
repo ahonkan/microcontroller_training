@@ -13,14 +13,18 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 ## Configure Pin Mux Settings
 Use configuration tool to configure GPIO pins to access LED & Buttons, then other facilities.
 
-## LED Push Button- Main Loop
-Use push button to control LED in Main Loop
-Basic ARM CPU execution.
+## Execution Context
+The microcontroller has two types of execution context:
+- Main Execution 
+- Interrupt Execution
+- 
+### Main Execution: LED Push Button
+We are going to write a main loop program that lights the LED when the push-button is pressed.
+This code loops forever waiting on user action.
 
-## LED Push Button- ARM Timer Control
-Use push button to control LED via interrupt.
-ARM Internal Timer Interrupt Operation.
-Push Button Gates the LED which is triggered by Timer ISR.
+### Interrupt Execution: LED Push Button
+We are going to visit the ARM Core interrupts and then configure the ARM Core timer to run periodically and toggle the LED.  
+Use push button to gate the toggle operation.  
 
 ## LED Push Button- GPIO Interrupt
 Use push button to control LED via interrupt.
