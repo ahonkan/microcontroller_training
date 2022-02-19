@@ -8,7 +8,9 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 
 ## Setup IDE
 - Download the IDE tool
-- Get familiar with the project environment, settings, file and directory structure
+- Get familiar with the project environment, settings
+- Explain the file and directory structure and the reason why its setup that way
+- Give example of file code setup, recommended etc.
 - Compile, Build & Debug simple Hello Application.
 - Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
 
