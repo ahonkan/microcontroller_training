@@ -17,14 +17,15 @@ Use configuration tool to configure GPIO pins to access LED & Buttons, then othe
 The microcontroller has two types of execution context:
 - Main Execution 
 - Interrupt Execution
-- 
+
 ### Main Execution: LED Push Button
 We are going to write a main loop program that lights the LED when the push-button is pressed.
 This code loops forever waiting on user action.
 
 ### Interrupt Execution: LED Push Button
-We are going to visit the ARM Core interrupts and then configure the ARM Core timer to run periodically and toggle the LED.  
+We are going to review the ARM Core interrupts and then configure the ARM Core timer to run periodically and toggle the LED.  
 Use push button to gate the toggle operation.  
+Discuss difference between ARM core timer vs SOC timer.  
 
 ## LED Push Button- GPIO Interrupt
 Use push button to control LED via interrupt.
