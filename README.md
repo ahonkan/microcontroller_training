@@ -36,6 +36,9 @@ ARM extended interrupt table.
 Play with WAI and low power operation
 
 ## UART Operation- Character Echo
+- main loop
+- interrupt
+- DMA
 Set up UART and echo character.
 
 ## UART Operation- Line Echo
