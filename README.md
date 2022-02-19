@@ -5,10 +5,10 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
 
 ## Setup IDE
-Download the IDE tool
-Get familiar with the project environment, settings, file and directory structure
-Compile, Build & Debug simple Hello Application.
-Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
+- Download the IDE tool
+- Get familiar with the project environment, settings, file and directory structure
+- Compile, Build & Debug simple Hello Application.
+- Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
 
 ## Configure Pin Mux Settings
 Use configuration tool to configure GPIO pins to access LED & Buttons, then other facilities.
