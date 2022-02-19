@@ -1,6 +1,8 @@
 # microcontroller training
 Objective of this training is to exercise the commonly used interfaces on a standard microcontroller such as STM32F Family.
 
+## Reference Material
+
 ## Parts
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
 
