@@ -2,6 +2,8 @@
 Objective of this training is to exercise the commonly used interfaces on a standard microcontroller such as STM32F Family.
 
 ## Reference Material
+[ARM M4 Reference Manual: Main Page](https://developer.arm.com/documentation/100166/0001/)
+
 
 ## Parts
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
