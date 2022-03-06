@@ -1,17 +1,17 @@
 # microcontroller training
 Objective of this training is to exercise the commonly used interfaces on a standard microcontroller such as STM32F Family.
 
-## Reference Material
+# Reference Material
 [ARM M4 Reference Manual: Main Page](https://developer.arm.com/documentation/100166/0001/)
 
-## Programs and Utilities
+# Programs and Utilities
 [STMCubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 [STMStudio](https://www.st.com/en/development-tools/stm-studio-stm32.html) 
 
-## Parts
+# Parts
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
 
-## Setup Development Environment
+# Setup Development Environment
 This section will cover the following topics:
 - Software Development Flow
 - Download the IDE tool, build simple Hello Application
@@ -19,6 +19,7 @@ This section will cover the following topics:
 - Explain the file and directory structure and the reason why its setup that way
 - Give example of file code setup, recommended etc.
 - Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
+- Experiment with other STMicro tools
 
 ## Software Development Workflow
 
@@ -29,6 +30,11 @@ Before diving into coding, we will cover the following:
 Though the main focus of this tutorial is on microcontroller 
 development, we will spend time learning and using support tools
 for general software development.
+
+
+### Fork the main 
+Navigate to 
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
 
 ### Workspace Setup for Lessions
 
