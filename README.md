@@ -11,12 +11,13 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 ## Parts
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
 
-## Setup IDE
-- Download the IDE tool
+## Setup Development Environment
+This section will cover the following topics:
+- Software Development Flow
+- Download the IDE tool, build simple Hello Application
 - Get familiar with the project environment, settings
 - Explain the file and directory structure and the reason why its setup that way
 - Give example of file code setup, recommended etc.
-- Compile, Build & Debug simple Hello Application.
 - Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
 
 ## Software Development Workflow
