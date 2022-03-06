@@ -1,4 +1,4 @@
-# microcontroller training
+# Microcontroller Training
 Objective of this training is to exercise the commonly used interfaces on a standard microcontroller such as STM32F Family.
 
 # Reference Material
