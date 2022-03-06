@@ -4,6 +4,9 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 ## Reference Material
 [ARM M4 Reference Manual: Main Page](https://developer.arm.com/documentation/100166/0001/)
 
+## Programs and Utilities
+[STMCubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+[STMStudio](https://www.st.com/en/development-tools/stm-studio-stm32.html) 
 
 ## Parts
 [NUCLEO-F446ZE](https://estore.st.com/en/nucleo-f446ze-cpn.html)  Currently Out Of Stock
