@@ -24,15 +24,23 @@ This section will cover the following topics:
 ## Software Development Workflow
 
 Before diving into coding, we will cover the following:
+- Source Code Management Structure for collaborative work
 - Folder structure to track all your projects for this training 
 - Source Code Management Structure
 
 Though the main focus of this tutorial is on microcontroller 
-development, we will spend time learning and using support tools
+development, we will spend time learning `git` and other support tools
 for general software development.
 
+### Source Code Management & Collaborative Work
+`git` is the tool that will be used to support tracking changes in your work as well as allow you to share and sync work
+from other people.
 
-### Fork the main 
+All projects in this tutorial will be created and stored in your respective *forks* of this repo.  
+A *fork* is like a fork in the road where the new road continues on independent of the original road.   
+
+Create a fork off this repo.  Navigate to https://github.com/ahonkan/microcontroller_training and click on the 
+
 Navigate to 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
 
