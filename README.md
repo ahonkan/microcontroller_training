@@ -19,6 +19,61 @@ Objective of this training is to exercise the commonly used interfaces on a stan
 - Compile, Build & Debug simple Hello Application.
 - Know how to use JTAG debugger, set/clear breakpoints, view memory, attach to a running system for the simple hello application
 
+## Software Development Workflow
+
+Before diving into coding, we will cover the following:
+- Folder structure to track all your projects for this training 
+- Source Code Management Structure
+
+Though the main focus of this tutorial is on microcontroller 
+development, we will spend time learning and using support tools
+for general software development.
+
+### Workspace Setup for Lessions
+
+Folder organization is very important when developing code.  
+For the lessions, the following structure will be set up:
+```
+~/swdev/
+~/swdev/microcontroller_training/
+~/swdev/microcontroller_training/ide_introduction
+```
+The `swdev` will be the root folder where all the instructions, test projects
+git repositories etc will reside that are relevant for software development.
+
+#### Create A Main Folder For Software Development
+In your linux terminal, type in following commands:
+```
+cd ~
+mkdir swdev
+```
+`cd ~` changes the directory to your home directory
+`mkdir swdev` creates the `swdev` diretory which will contain all your
+software development projects, tests etc.
+
+#### Clone this training repository
+```
+cd ~/swdev/
+git clone
+
+In your linux terminal, type in following commands:
+```
+cd ~
+mkdir swdev
+```
+`cd ~` changes the directory to your home directory
+`mkdir swdev` creates the `swdev` diretory which will contain all your
+software development projects, tests etc.
+
+
+
+
+### Source Code Management (SCM)
+
+Source code management is needed to track changes, history etc.
+A common tool is git which will be used in this tutorial.
+  
+
 ## Configure Pin Mux Settings
 Use configuration tool to configure GPIO pins to access LED & Buttons, then other facilities.
 
