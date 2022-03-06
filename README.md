@@ -39,7 +39,8 @@ from other people.
 All projects in this tutorial will be created and stored in your respective *forks* of this repo.  
 A *fork* is like a fork in the road where the new road continues on independent of the original road.   
 
-Create a fork off this repo.  Navigate to https://github.com/ahonkan/microcontroller_training and click on the 
+Create a fork off this repo.  Navigate to https://github.com/ahonkan/microcontroller_training and click on
+![fork](/assets/images/fork_icon.png)
 
 Navigate to 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
