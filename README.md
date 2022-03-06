@@ -37,13 +37,18 @@ for general software development.
 from other people.
 
 All projects in this tutorial will be created and stored in your respective *forks* of this repo.  
-A *fork* is like a fork in the road where the new road continues on independent of the original road.   
+A *fork* is like a fork in the road where the new road continues on independent of the original road.  
 
 Create a fork off this repo.  Navigate to https://github.com/ahonkan/microcontroller_training and click on
-![fork](/assets/images/fork_icon.PNG)
+![fork](/assets/images/fork_icon.PNG).  In software development terminology the `ahonkan/microcontroller_training`
+repository is the **upstream** repository and your specific repository is now the **downstream** repository or 
+**local fork**.  
 
-Navigate to 
-https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+Later on as there is more content or changing content in this upstream repository, you will want to **sync your fork**
+with the upstream to keep your repo updated with all the changes at upstream.  This is relevant when multiple
+contributors add content to the upstream and you want to make sure you have all the latest changes.  
+The specifics of collaborative work will be covered later when it becomes relevant.  For now, you can sync your fork
+by following instructions here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
 
 ### Workspace Setup for Lessions
 
@@ -53,9 +58,12 @@ For the lessions, the following structure will be set up:
 ~/swdev/
 ~/swdev/microcontroller_training/
 ~/swdev/microcontroller_training/ide_introduction
+~/swdev/microcontroller_training/<other projects>
 ```
 The `swdev` will be the root folder where all the instructions, test projects
 git repositories etc will reside that are relevant for software development.
+
+> **NOTE** The folders under `microcontroller_training` could come from syncing to upstream or from local development etc.
 
 #### Create A Main Folder For Software Development
 In your linux terminal, type in following commands:
@@ -71,6 +79,7 @@ software development projects, tests etc.
 ```
 cd ~/swdev/
 git clone
+```
 
 In your linux terminal, type in following commands:
 ```
