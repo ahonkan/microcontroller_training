@@ -33,12 +33,15 @@ development, we will spend time learning `git` and other support tools
 for general software development.
 
 ### Source Code Management & Collaborative Work
-`git` is the tool that will be used to support tracking changes in your work as well as allow you to share and sync work
-from other people.  `git` by itself is a utility that runs on your local *host* environment.  
+`git` is a Source Code Management (SCM) tool that will be used to contain, and track the history and relationships of files that are required to create a finished software-based product.  The terms *create*, *finished*, and *software-based product* are deliberately vague as those terms have different meanings depending on who is the creator and end-customer of the software product.  The `git` utility uses a concept of a *repository* that contains *branches* or variations of the code that is being developed.  Code can consist of text and binary files but in all cases they are considered the *source* or original material.  *Derived* or *intermediate* objects are outputs from a previous operation on *source* and are never to be checked into the *repository*.  `git` also allowes you to do collaborative work by doing all the accounting and tracking between the different members of a team.  
 
-`GitHub` is a service that allows you to host (store) your repositories on the internet so that it can be shared among other remote developers. In order to access Github, you will need to set up "keys" so that your `git` utility running on the *host* ie your workstation, will access repositories that are *hosted* on Github.
+`git` by itself is a utility that runs on your local *host* environment.  
+`GitHub` is a service that allows you to host (store) your repositories on the internet so that it can be shared among other remote developers. In order to access Github, you will need to set up "keys" so that your `git` utility running on the *host* ie your workstation, will access repositories that are *hosted* on Github.  This step will be done later.
 
 > **Terminology**  
+> *SCM* Source Code Management is a term referring to tools that manage source code development across multiple developers
+> *repository* A container of code, code history and changes.  Short form for *repository* is *repo* 
+> *branch* Like a tree branch, a *branch* is a split or variation of the codebase that has its own history of changes.  
 > *host* used as a noun is the workstation or laptop or whatever you use for developing your code  
 > *target* is the device environment where your code executes on  
 > *host* used as a verb is the action of containing and running some application.  
@@ -59,7 +62,7 @@ The specifics of collaborative work will be covered later when it becomes releva
 by following instructions here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
 
 > **Terminology**  
-> *fork* A copy of a repository whose structure & layout can be modified without affecting the original repository  
+> *fork* A copy of a repository whose structure & layout can be modified without affecting the original repository.  Repos are forked, code in a repo is branched.  
 > *upstream* The original repository from which the *fork* took place  
 > *downstream* Yours and other repositories that were forked from the main *upstream* repository.  
 > *sync your fork* You update/sync your *downstream* fork with all the changes that have happened on the *upstream* fork.  *upstream* fork will contain all the latest changes that you want
@@ -95,9 +98,10 @@ The link below will walk you through this setup process:
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 #### Clone this training repository
+After the *fork* is created, a clone 
 ```
 cd ~/swdev/
-git clone git@github.com:<your_git_id>/microcontroller_training.git
+git clone git@github.com:<userid>/microcontroller_training.git
 ```
 If your keys were set up correctly, you should see something similar to the following displayed on your screen:
 ```
@@ -112,16 +116,19 @@ Resolving deltas: 100% (44/44), done.
 After cloning, you can identify the origin of the repository by issuing the following command:
 ```
 git remote -v
-origin  git@github.com:{{ USER }}/microcontroller_training.git (fetch)
-origin  git@github.com:{{ USER }}/microcontroller_training.git (push)
+origin  git@github.com:<userid>/microcontroller_training.git (fetch)
+origin  git@github.com:<userid>/microcontroller_training.git (push)
 ```
-The term `origin` present in this output is a default name given to the repository in your account
+The term `origin` present in this output is a default name given to the repository that was cloned.  Other repositories can be added later but this is an advanced topic and will not be covered for now.
+
+> **Terminology**  
+> *clone* Takes code that is in a repository located on another server, ie GitHub, and transfers it to your host machine
 
 
 ## Project 1: git workflow
 This project will walk through a basic `git` workflow that you will use on a regular basis.  The objective of this exercise is to learn how to modify code on your host machine and then store the changes back on Github for future reference.  
 
-This following diagram shows the connectivity relationship between the repositories that have been created so far.  
+This following diagram shows the connectivity relationship between the repositories that have been created so far.   
 ```mermaid
 flowchart LR
   subgraph GitHub
