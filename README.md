@@ -34,21 +34,35 @@ for general software development.
 
 ### Source Code Management & Collaborative Work
 `git` is the tool that will be used to support tracking changes in your work as well as allow you to share and sync work
-from other people.
+from other people.  `git` by itself is a utility that runs on your local *host* environment.  
 
+`GitHub` is a service that allows you to host (store) your repositories on the internet so that it can be shared among other remote developers. In order to access Github, you will need to set up "keys" so that your `git` utility running on the *host* ie your workstation, will access repositories that are *hosted* on Github.
+
+> **Terminology**
+> *host* used as a noun is the workstation or laptop or whatever you use for developing your code
+> *target* is the device environment where your code executes on
+> *host* used as a verb is the action of containing and running some application.
+
+#### Creating a Fork
 All projects in this tutorial will be created and stored in your respective *forks* of this repo.  
 A *fork* is like a fork in the road where the new road continues on independent of the original road.  
 
 Create a fork off this repo.  Navigate to https://github.com/ahonkan/microcontroller_training and click on
 ![fork](/assets/images/fork_icon.PNG).  In software development terminology the `ahonkan/microcontroller_training`
-repository is the **upstream** repository and your specific repository is now the **downstream** repository or 
-**local fork**.  
+repository is the *upstream* repository and your specific repository is now the *downstream* repository or 
+*local fork.  
 
-Later on as there is more content or changing content in this upstream repository, you will want to **sync your fork**
+Later on as there is more content or changing content in this upstream repository, you will want to *sync your fork*
 with the upstream to keep your repo updated with all the changes at upstream.  This is relevant when multiple
 contributors add content to the upstream and you want to make sure you have all the latest changes.  
 The specifics of collaborative work will be covered later when it becomes relevant.  For now, you can sync your fork
 by following instructions here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+> **Terminology**
+> *fork* A copy of a repository whose structure & layout can be modified without affecting the original repository
+> *upstream* The original repository from which the *fork* took place
+> *downstream* Yours and other repositories that were forked from the main *upstream* repository.
+> *sync your fork* You update/sync your *downstream* fork with all the changes that have happened on the *upstream* fork.  *upstream* fork will contain all the latest changes that you want
 
 ### Workspace Setup for Lessions
 
@@ -75,10 +89,15 @@ mkdir swdev
 `mkdir swdev` creates the `swdev` diretory which will contain all your
 software development projects, tests etc.
 
+#### Creating Github Access Keys
+Before you can access code on Github, you will need to set up your host machine with access keys so that you can perform `git` operations that access your Github account.  
+The link below will walk you through this setup process:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
 #### Clone this training repository
 ```
 cd ~/swdev/
-git clone
+git clone git@github.com:<your_git_id>/microcontroller_training.git
 ```
 
 In your linux terminal, type in following commands:
