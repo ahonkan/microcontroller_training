@@ -38,10 +38,10 @@ from other people.  `git` by itself is a utility that runs on your local *host* 
 
 `GitHub` is a service that allows you to host (store) your repositories on the internet so that it can be shared among other remote developers. In order to access Github, you will need to set up "keys" so that your `git` utility running on the *host* ie your workstation, will access repositories that are *hosted* on Github.
 
-> **Terminology**
-> *host* used as a noun is the workstation or laptop or whatever you use for developing your code
-> *target* is the device environment where your code executes on
-> *host* used as a verb is the action of containing and running some application.
+> **Terminology**  
+> *host* used as a noun is the workstation or laptop or whatever you use for developing your code  
+> *target* is the device environment where your code executes on  
+> *host* used as a verb is the action of containing and running some application.  
 
 #### Creating a Fork
 All projects in this tutorial will be created and stored in your respective *forks* of this repo.  
@@ -58,10 +58,10 @@ contributors add content to the upstream and you want to make sure you have all 
 The specifics of collaborative work will be covered later when it becomes relevant.  For now, you can sync your fork
 by following instructions here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
 
-> **Terminology**
-> *fork* A copy of a repository whose structure & layout can be modified without affecting the original repository
-> *upstream* The original repository from which the *fork* took place
-> *downstream* Yours and other repositories that were forked from the main *upstream* repository.
+> **Terminology**  
+> *fork* A copy of a repository whose structure & layout can be modified without affecting the original repository  
+> *upstream* The original repository from which the *fork* took place  
+> *downstream* Yours and other repositories that were forked from the main *upstream* repository.  
 > *sync your fork* You update/sync your *downstream* fork with all the changes that have happened on the *upstream* fork.  *upstream* fork will contain all the latest changes that you want
 
 ### Workspace Setup for Lessions
