@@ -110,6 +110,18 @@ Receiving objects: 100% (76/76), 26.99 KiB | 708.00 KiB/s, done.
 Resolving deltas: 100% (44/44), done.
 ```
 
+# Project 1: git workflow
+This project will walk through a basic `git` workflow that you will use on a regular basis.  The objective of this exercise is to learn how to modify code on your host machine and then store the changes back on Github for future reference.  
+
+```mermaid
+flowchart LR
+  subgraph GitHub
+  upstream ---|fork| fork
+  end
+  subgraph Host
+  fork ---|clone| clone
+  end
+```
 
 
 
@@ -117,10 +129,6 @@ Resolving deltas: 100% (44/44), done.
 
 
 
-### Source Code Management (SCM)
-
-Source code management is needed to track changes, history etc.
-A common tool is git which will be used in this tutorial.
   
 
 ## Configure Pin Mux Settings
