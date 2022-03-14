@@ -112,8 +112,8 @@ Resolving deltas: 100% (44/44), done.
 After cloning, you can identify the origin of the repository by issuing the following command:
 ```
 git remote -v
-origin  git@github.com:$USER/microcontroller_training.git (fetch)
-origin  git@github.com:$USER/microcontroller_training.git (push)
+origin  git@github.com:{{ USER }}/microcontroller_training.git (fetch)
+origin  git@github.com:{{ USER }}/microcontroller_training.git (push)
 ```
 The term `origin` present in this output is a default name given to the repository in your account
 
