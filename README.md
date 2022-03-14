@@ -115,10 +115,10 @@ This project will walk through a basic `git` workflow that you will use on a reg
 
 ```mermaid
 flowchart LR
-  subgraph GitHub
+  subgraph GitHub(Github/Internet)
   upstream ---|fork| fork
   end
-  subgraph Host
+  subgraph Host(Host/Home)
   fork ---|clone| clone
   end
 ```
