@@ -109,16 +109,25 @@ remote: Total 76 (delta 44), reused 9 (delta 3), pack-reused 0
 Receiving objects: 100% (76/76), 26.99 KiB | 708.00 KiB/s, done.
 Resolving deltas: 100% (44/44), done.
 ```
+After cloning, you can identify the origin of the repository by issuing the following command:
+```
+git remote -v
+origin  git@github.com:$USER/microcontroller_training.git (fetch)
+origin  git@github.com:$USER/microcontroller_training.git (push)
+```
+The term `origin` present in this output is a default name given to the repository in your account
 
-# Project 1: git workflow
+
+## Project 1: git workflow
 This project will walk through a basic `git` workflow that you will use on a regular basis.  The objective of this exercise is to learn how to modify code on your host machine and then store the changes back on Github for future reference.  
 
+This following diagram shows the connectivity relationship between the repositories that have been created so far.  
 ```mermaid
 flowchart LR
-  subgraph GitHub(Github/Internet)
+  subgraph GitHub
   upstream ---|fork| fork
   end
-  subgraph Host(Host/Home)
+  subgraph Host
   fork ---|clone| clone
   end
 ```
