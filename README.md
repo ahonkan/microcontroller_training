@@ -99,16 +99,21 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 cd ~/swdev/
 git clone git@github.com:<your_git_id>/microcontroller_training.git
 ```
-
-In your linux terminal, type in following commands:
+If your keys were set up correctly, you should see something similar to the following displayed on your screen:
 ```
-cd ~
-mkdir swdev
+Cloning into 'microcontroller_training'...
+remote: Enumerating objects: 76, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (71/71), done.
+remote: Total 76 (delta 44), reused 9 (delta 3), pack-reused 0
+Receiving objects: 100% (76/76), 26.99 KiB | 708.00 KiB/s, done.
+Resolving deltas: 100% (44/44), done.
 ```
-`cd ~` changes the directory to your home directory
-`mkdir swdev` creates the `swdev` diretory which will contain all your
-software development projects, tests etc.
 
+
+
+
+----
 
 
 
